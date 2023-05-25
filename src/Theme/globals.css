@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .content {
+    @apply w-10/12 max-w-5xl mx-auto
+  }
+
+  .my-input {
+    @apply w-full box-border border border-solid border-gray-200 p-2 text-base outline-none appearance-none rounded
+  }
+
+  .my-input:focus {
+    @apply border-blue-600
+  }
+
+  .my-select {
+    @apply box-border border border-solid border-gray-200 p-2 text-base
+  }
+  
+  .my-button {
+    @apply justify-self-center border-none bg-blue-600 text-white p-2 text-base rounded-md
+  }
+  
+  .my-button:hover {
+    @apply cursor-pointer opacity-70
+  }
+
+  .frame {
+    @apply relative border-8 border-double border-black rounded-md pt-4 pr-20 pb-10 pl-4
+  }
+
+  .title {
+    @apply text-2xl font-bold pb-8
+  }
+}

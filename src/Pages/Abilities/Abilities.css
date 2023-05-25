@@ -1,0 +1,7 @@
+.ability + .ability {
+  margin-top: 20px;
+}
+
+.have-poke:not(:last-child)::after {
+  content: ", ";
+}

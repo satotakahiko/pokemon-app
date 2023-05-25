@@ -1,0 +1,467 @@
+{
+  "times": {
+    "effective": 2,
+    "notEffective": 0.5,
+    "notAffect": 0
+  },
+  "types": [
+    {
+      "type": "normal",
+      "typeJa": "ノーマル",
+      "typeKanji": "無",
+      "color": "#aea886",
+      "attack": {
+        "effective": [],
+        "notEffective": [
+          "rock", "steel"
+        ],
+        "notAffect": [
+          "ghost"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "fighting"
+        ],
+        "notEffective": [],
+        "notAffect": [
+          "ghost"
+        ]
+      }
+    },
+    {
+      "type": "fire",
+      "typeJa": "ほのお",
+      "typeKanji": "炎",
+      "color": "#f45c19",
+      "attack": {
+        "effective": [
+          "grass", "ice", "bug", "steel"
+        ],
+        "notEffective": [
+          "fire", "water", "rock", "dragon"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "water", "ground", "rock"
+        ],
+        "notEffective": [
+          "fire", "grass", "ice", "bug", "steel", "fairy"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "water",
+      "typeJa": "みず",
+      "typeKanji": "水",
+      "color": "#4a96d6",
+      "attack": {
+        "effective": [
+          "fire", "ground", "rock"
+        ],
+        "notEffective": [
+          "water", "grass", "dragon"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "grass", "electric"
+        ],
+        "notEffective": [
+          "fire", "water", "ice", "steel"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "grass",
+      "typeJa": "くさ",
+      "typeKanji": "草",
+      "color": "#28b25c",
+      "attack": {
+        "effective": [
+          "water", "ground", "rock"
+        ],
+        "notEffective": [
+          "fire", "grass", "poison", "flying", "bug", "dragon", "steel"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "fire", "ice", "poison", "flying", "bug"
+        ],
+        "notEffective": [
+          "water", "electric", "grass", "ground"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "electric",
+      "typeJa": "でんき",
+      "typeKanji": "電",
+      "color": "#eaa317",
+      "attack": {
+        "effective": [
+          "water", "flying"
+        ],
+        "notEffective": [
+          "electric", "grass", "dragon"
+        ],
+        "notAffect": [
+          "ground"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "ground"
+        ],
+        "notEffective": [
+          "electric", "flying", "steel"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "ice",
+      "typeJa": "こおり",
+      "typeKanji": "氷",
+      "color": "#45a9c0",
+      "attack": {
+        "effective": [
+          "grass", "ground", "flying", "dragon"
+        ],
+        "notEffective": [
+          "fire", "water", "ice", "steel"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "fire", "fighting", "rock", "steel"
+        ],
+        "notEffective": [
+          "ice"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "fighting",
+      "typeJa": "かくとう",
+      "typeKanji": "闘",
+      "color": "#9a3d3e",
+      "attack": {
+        "effective": [
+          "normal", "ice", "rock", "dark", "steel"
+        ],
+        "notEffective": [
+          "poison", "flying", "psychic", "bug", "fairy"
+        ],
+        "notAffect": [
+          "ghost"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "flying", "psychic", "fairy"
+        ],
+        "notEffective": [
+          "bug", "rock", "dark"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "poison",
+      "typeJa": "どく",
+      "typeKanji": "毒",
+      "color": "#8f5b98",
+      "attack": {
+        "effective": [
+          "grass", "fairy"
+        ],
+        "notEffective": [
+          "poison", "ground", "rock", "ghost"
+        ],
+        "notAffect": [
+          "steel"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "ground", "psychic"
+        ],
+        "notEffective": [
+          "grass", "fighting", "poison", "bug", "fairy"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "ground",
+      "typeJa": "じめん",
+      "typeKanji": "地",
+      "color": "#916d3c",
+      "attack": {
+        "effective": [
+          "fire", "electric", "poison", "rock", "steel"
+        ],
+        "notEffective": [
+          "grass", "bug"
+        ],
+        "notAffect": [
+          "flying"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "water", "grass", "ice"
+        ],
+        "notEffective": [
+          "poison", "rock"
+        ],
+        "notAffect": [
+          "electric"
+        ]
+      }
+    },
+    {
+      "type": "flying",
+      "typeJa": "ひこう",
+      "typeKanji": "飛",
+      "color": "#7e9ecf",
+      "attack": {
+        "effective": [
+          "grass", "fighting", "bug"
+        ],
+        "notEffective": [
+          "electric", "rock", "steel"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "electric", "ice", "rock"
+        ],
+        "notEffective": [
+          "grass", "fighting", "bug"
+        ],
+        "notAffect": [
+          "ground"
+        ]
+      }
+    },
+    {
+      "type": "psychic",
+      "typeJa": "エスパー",
+      "typeKanji": "超",
+      "color": "#d56d8b",
+      "attack": {
+        "effective": [
+          "psychic", "poison"
+        ],
+        "notEffective": [
+          "psychic", "steel"
+        ],
+        "notAffect": [
+          "dark"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "bug", "ghost", "dark"
+        ],
+        "notEffective": [
+          "fighting", "psychic"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "bug",
+      "typeJa": "むし",
+      "typeKanji": "虫",
+      "color": "#989001",
+      "attack": {
+        "effective": [
+          "grass", "psychic", "dark"
+        ],
+        "notEffective": [
+          "fire", "fighting", "poison", "flying", "ghost", "steel", "fairy"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "fire", "flying", "rock"
+        ],
+        "notEffective": [
+          "grass", "fighting", "ground"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "rock",
+      "typeJa": "いわ",
+      "typeKanji": "岩",
+      "color": "#878052",
+      "attack": {
+        "effective": [
+          "fire", "ice", "flying", "bug"
+        ],
+        "notEffective": [
+          "fighting", "ground", "steel"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "water", "grass", "fighting", "ground", "steel"
+        ],
+        "notEffective": [
+          "normal", "fire", "poison", "flying"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "ghost",
+      "typeJa": "ゴースト",
+      "typeKanji": "霊",
+      "color": "#555fa4",
+      "attack": {
+        "effective": [
+          "psychic", "ghost"
+        ],
+        "notEffective": [
+          "dark"
+        ],
+        "notAffect": [
+          "normal"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "ghost", "dark"
+        ],
+        "notEffective": [
+          "poison", "bug"
+        ],
+        "notAffect": [
+          "normal", "fighting"
+        ]
+      }
+    },
+    {
+      "type": "dragon",
+      "typeJa": "ドラゴン",
+      "typeKanji": "龍",
+      "color": "#454ba6",
+      "attack": {
+        "effective": [
+          "dragon"
+        ],
+        "notEffective": [
+          "steel"
+        ],
+        "notAffect": [
+          "fairy"
+        ]
+      },
+      "defense": {
+        "effective": [
+          "ice", "dragon", "fairy"
+        ],
+        "notEffective": [
+          "fire", "water", "electric", "grass"
+        ],
+        "notAffect": []
+      }
+    },
+    {
+      "type": "dark",
+      "typeJa": "あく",
+      "typeKanji": "悪",
+      "color": "#7a0049",
+      "attack": {
+        "effective": [
+          "psychic", "ghost"
+        ],
+        "notEffective": [
+          "fighting", "dark", "fairy"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "fighting", "bug", "fairy"
+        ],
+        "notEffective": [
+          "ghost", "dark"
+        ],
+        "notAffect": [
+          "psychic"
+        ]
+      }
+    },
+    {
+      "type": "steel",
+      "typeJa": "はがね",
+      "typeKanji": "鋼",
+      "color": "#9b9b9b",
+      "attack": {
+        "effective": [
+          "ice", "rock", "fairy"
+        ],
+        "notEffective": [
+          "fire", "water", "electric", "steel"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "fire", "fighting", "ground"
+        ],
+        "notEffective": [
+          "normal", "grass", "ice", "flying", "psychic", "bug", "rock", "dragon", "steel", "fairy"
+        ],
+        "notAffect": [
+          "poison"
+        ]
+      }
+    },
+    {
+      "type": "fairy",
+      "typeJa": "フェアリー",
+      "typeKanji": "妖",
+      "color": "#ffbbff",
+      "attack": {
+        "effective": [
+          "fighting", "dragon", "dark"
+        ],
+        "notEffective": [
+          "fire", "poison", "steel"
+        ],
+        "notAffect": []
+      },
+      "defense": {
+        "effective": [
+          "poison", "steel"
+        ],
+        "notEffective": [
+          "fighting", "bug", "dark"
+        ],
+        "notAffect": [
+          "dragon"
+        ]
+      }
+    }
+  ]
+}

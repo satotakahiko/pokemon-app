@@ -1,0 +1,122 @@
+@import "tailwindcss/components";
+
+.retro-text {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.my-table {
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+}
+
+.column {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(19, 35.375px);
+}
+
+.column > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.column:first-child > span {
+  border-right: 1px solid #000;
+}
+
+.column:nth-child(n+2) > span:nth-child(n+2) {
+  border-right: 1px solid rgb(207, 207, 207);
+}
+
+.column > span:first-child {
+  border-bottom: 1px solid #000;
+}
+
+.column > span[class$="-cell"] {
+  position: relative;
+}
+
+.column > span[class$="-cell"]::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  z-index: 0;
+  content: "";
+}
+
+.fire-cell::before {
+  background-color: var(--fire-color);
+}
+
+.water-cell::before {
+  background-color: var(--water-color);
+}
+
+.grass-cell::before {
+  background-color: var(--grass-color);
+}
+
+.electric-cell::before {
+  background-color: var(--electric-color);
+}
+
+.ice-cell::before {
+  background-color: var(--ice-color);
+}
+
+.fighting-cell::before {
+  background-color: var(--fighting-color);
+}
+
+.poison-cell::before {
+  background-color: var(--poison-color);
+}
+
+.ground-cell::before {
+  background-color: var(--ground-color);
+}
+
+.flying-cell::before {
+  background-color: var(--flying-color);
+}
+
+.psychic-cell::before {
+  background-color: var(--psychic-color);
+}
+
+.bug-cell::before {
+  background-color: var(--bug-color);
+}
+
+.rock-cell::before {
+  background-color: var(--rock-color);
+}
+
+.ghost-cell::before {
+  background-color: var(--ghost-color);
+}
+
+.dragon-cell::before {
+  background-color: var(--dragon-color);
+}
+
+.dark-cell::before {
+  background-color: var(--dark-color);
+}
+
+.steel-cell::before {
+  background-color: var(--steel-color);
+}
+
+.fairy-cell::before {
+  background-color: var(--fairy-color);
+}
+
+@layer components {
+  
+}

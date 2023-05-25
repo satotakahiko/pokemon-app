@@ -1,0 +1,20 @@
+:root {
+  --normal-color: #aea886;
+  --fire-color: #ff5c19;
+  --water-color: #4a96ff;
+  --grass-color: #28ff5c;
+  --electric-color: #ffdb3a;
+  --ice-color: #20f0ff;
+  --fighting-color: #bd2527;
+  --poison-color: #e360fa;
+  --ground-color: #ce9545;
+  --flying-color: #cce0ff;
+  --psychic-color: #ff6590;
+  --bug-color: #aca523;
+  --rock-color: #797142;
+  --ghost-color: #7659f8;
+  --dragon-color: #0011ff;
+  --dark-color: #414141;
+  --steel-color: #c4c4c4;
+  --fairy-color: #ffa1f7;
+}
